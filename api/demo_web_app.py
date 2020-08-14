@@ -106,4 +106,4 @@ def demo_web_app(gpt, config=UIConfig()):
         return {'text': response['choices'][0]['text'][offset:]}
 
     subprocess.Popen(["yarn", "start"])
-    app.run()
+    app.run(port=4000)
