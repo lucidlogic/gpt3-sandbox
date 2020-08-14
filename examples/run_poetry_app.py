@@ -26,6 +26,12 @@ gpt.add_example(Example('fakes',
 gpt.add_example(Example('ethics',
                         'Don\’t do things that you know are morally wrong. Not because someone is watching, but because you are. Self-esteem is just the reputation that you have with yourself. You’ll always know.'))
 
+gpt.add_example(Example('originality',
+                        'The larger the herd, the lower the returns'))
+
+gpt.add_example(Example('politics',
+                        'The two party system is an emergent bug in representative democracy.'))
+
 # Define UI configuration
 config = UIConfig(description="Wisdom generator",
                   button_text="Generate",
