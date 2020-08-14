@@ -29,6 +29,6 @@ gpt.add_example(Example('ethics',
 # Define UI configuration
 config = UIConfig(description="Wisdom generator",
                   button_text="Generate",
-                  placeholder="test")
+                  placeholder="boredom")
 
 demo_web_app(gpt, config)
