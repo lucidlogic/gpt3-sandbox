@@ -9,28 +9,28 @@ from api import GPT, Example, UIConfig
 from api import demo_web_app
 
 # Construct GPT object and show some examples
-gpt = GPT(engine="davinci",
+gpt = GPT(engine="curie",
           temperature=0.5,
-          max_tokens=50)
+          max_tokens=40)
 
 gpt.add_example(
     Example(
         "Inception",
-        "Source Code, The Prestige, Cooper, Minority Report, The Matrix, Memento, The Thirteen Floor, In Time, Transcendence, Intersteller, Lucy, Coherence, Limitless, Etemal Sunshine of the Spotless Mind, Oblivion, Trance"
+        "Source Code, The Prestige, Cooper, Minority Report, The Matrix, Memento, The Thirteen Floor, In Time, Transcendence, Intersteller, Lucy, Coherence, Limitless, Eternal Sunshine of the Spotless Mind, Oblivion, Trance"
     )
 )
 
 gpt.add_example(
     Example(
         "Dark",
-        "Maus, The Silence, Freaks, Lost Girls, White Bear, One of Us, The Ritual, The Open House, Extingtion, Lights Out"
+        "Maus, The Silence, Freaks, Lost Girls, White Bear, One of Us, The Ritual, The Open House, Extinction, Lights Out"
     )
 )
 
 gpt.add_example(
     Example(
         "Titanic",
-        "The Great Gatsby, The Day After Tornorrow, The Perfect Storm, Romeo and Juliet, Twister, Pride & Prejudice, A Walk to Remember, Me Before You, Forrest Gump, After, The Longest Ride"
+        "The Great Gatsby, The Day After Tomorrow, The Perfect Storm, Romeo and Juliet, Twister, Pride & Prejudice, A Walk to Remember, Me Before You, Forrest Gump, After, The Longest Ride"
     )
 )
 
@@ -77,7 +77,7 @@ gpt.add_example(
 )
 
 # Define UI configuration
-config = UIConfig(description="Recommend a movie or series",
+config = UIConfig(description="Find similar series/movies",
                   button_text="Generate",
                   placeholder="Titanic")
 
