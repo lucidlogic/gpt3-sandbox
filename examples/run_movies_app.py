@@ -16,7 +16,7 @@ gpt = GPT(engine="curie",
 gpt.add_example(
     Example(
         "Inception",
-        "Source Code, The Prestige, Cooper, Minority Report, The Matrix, Memento, The Thirteen Floor, In Time, Transcendence, Intersteller, Lucy, Coherence, Limitless, Eternal Sunshine of the Spotless Mind, Oblivion, Trance"
+        "Source Code, The Prestige, Cooper, Minority Report, The Matrix, Memento, The Thirteen Floor, In Time, Transcendence, Interstellar, Lucy, Coherence, Limitless, Eternal Sunshine of the Spotless Mind, Oblivion, Trance"
     )
 )
 
@@ -30,20 +30,20 @@ gpt.add_example(
 gpt.add_example(
     Example(
         "Titanic",
-        "The Great Gatsby, The Day After Tomorrow, The Perfect Storm, Romeo and Juliet, Twister, Pride & Prejudice, A Walk to Remember, Me Before You, Forrest Gump, After, The Longest Ride"
+        "The Great Gatsby, The Day After Tomorrow, The Perfect Storm, Romeo and Juliet, Twister, Pride & Prejudice, A Walk to Remember, Me Before You, Forrest Gump, The Longest Ride"
     )
 )
 
 gpt.add_example(
     Example(
         "Brokeback Mountain",
-        "Call me by your name, Moonlight, Gone with the wind, Transarnerica, Boy Erased, Candy, Wildlife, Gods Own Country, Into the Wild, Out of Africa, Sideways, Slumdog Millionaire"
+        "Call me by your name, Moonlight, Gone with the wind, Boy Erased, Candy, Wildlife, Gods Own Country, Into the Wild, Out of Africa, Sideways, Slumdog Millionaire"
     )
 )
 
 gpt.add_example(
     Example(
-        "Intersteller",
+        "Interstellar",
         "The Martian, Gravity, Interstellar, Arrival, Passengers"
     )
 )
@@ -72,7 +72,7 @@ gpt.add_example(
 gpt.add_example(
     Example(
         "Toy Story",
-        "Monsters Inc, Toy Story 3, Toy Story 4, How to Train Your Dragon, Up, Finding Nemo, Ice Age, Shrek the Third, The Ant Bully, Big Hero, The Lego Movie, American Tail, Bug's Life, Toy Story 2, Chichen Run, Adventure of Rocky and Bullwinkle"
+        "Monsters Inc, Toy Story 3, Toy Story 4, How to Train Your Dragon, Up, Finding Nemo, Ice Age, Shrek the Third, The Ant Bully, Big Hero, The Lego Movie, American Tail, Bug's Life, Toy Story 2, Chicken Run, Adventure of Rocky and Bullwinkle"
     )
 )
 
