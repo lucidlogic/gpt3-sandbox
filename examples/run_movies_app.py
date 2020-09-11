@@ -11,7 +11,7 @@ from api import demo_web_app
 # Construct GPT object and show some examples
 gpt = GPT(engine="davinci",
           temperature=0.5,
-          max_tokens=100)
+          max_tokens=50)
 
 gpt.add_example(
     Example(
